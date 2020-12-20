@@ -44,6 +44,27 @@ body{
     left: 17px;
     top: 132px;
 }
+@keyframes toyShake {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(45deg);
+    }
+
+    50%{
+        transform: rotate(0);
+    }
+
+    75%{
+        transform: rotate(-45deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
 #countdown{
     position: absolute;
     left: 21%;
