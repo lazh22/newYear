@@ -1,10 +1,10 @@
 .window{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     background-color: whitesmoke;
     position: absolute;
-    left: 50%;
-    top: 60%;
+    left: 85%;
+    top: 5%;
     border-radius: 50%;
     border: 5px solid #fffb00;
     overflow: hidden;

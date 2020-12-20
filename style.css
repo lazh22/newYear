@@ -17,23 +17,51 @@ body{
     }
 }
 /* музыкальная игрушка */
-#player{
+#tree{
     position: fixed;
-    left: 85%;
+    left: calc(50% - 50px);
     
-    background-image: url("img/tree_toy.png");
+    background-image: url("img/tree.png");
     background-size: contain;
-    width: 80px;
-    height: 158px;
+    width: 131px;
+    height: 213px;
 }
-#player>img{
+#toy1{
     position: relative;
-    width: 40px;
-    left: 17px;
-    top: 95px;
-    filter: invert(60%) sepia(58%) saturate(1327%) hue-rotate(73deg) brightness(111%) contrast(116%);
+    width: 28px;
+    left: 22px;
+    top: 131px;
 }
-
+#toy2{
+    position: relative;
+    width: 25px;
+    left: 25px;
+    top: 47px;
+}
+#toy3{
+    position: relative;
+    width: 29px;
+    left: 17px;
+    top: 132px;
+}
+#countdown{
+    position: absolute;
+    left: 21%;
+    top: 63%;
+    color: #b0ebeb;
+    font-family: 'Squada One', cursive;
+    font-size: 100pt;
+}
+#countdown>p{
+    font-size: 42pt;
+    top: 62%;
+}
+#countdown>span{
+    font-size: 50pt;
+    position: relative;
+    left: 0%;
+    top: -76px;
+}
 
 
 @font-face {
