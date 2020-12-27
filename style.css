@@ -1,71 +1,82 @@
-body{
-    background-color: rgb(26, 25,25);
+body {
+    background-color: rgb(26, 25, 25);
 }
+
 /*АНИМАЦИЯ СНЕГОПАДА*/
-#snow{
+#snow {
     background-image: url("img/snow_1.png"), url("img/snow_2.png"), url("img/snow_3.png");
     z-index: 1;
     animation: snow 5s linear infinite;
 }
-@keyframes snow{
-    0%{
+
+@keyframes snow {
+    0% {
         background-position: 0px 0px, 0px 0px, 0px 0px;
     }
 
-    100%{
+    100% {
         background-position: 500px 750px, 150px 1500px, -175px 150px;
     }
 }
+
 /* музыкальная игрушка */
-#tree{
+#tree {
     position: fixed;
     left: calc(50% - 50px);
-    
+
     background-image: url("img/tree.png");
     background-size: contain;
     width: 131px;
     height: 213px;
 }
-#toy1{
+
+#toy1 {
     position: relative;
-    width: 28px;
-    left: 22px;
-    top: 131px;
+    width: 26px;
+    left: 23px;
+    top: 91px;
+    transform-origin: top;
 }
-#toy2{
+
+#toy2 {
     position: relative;
-    width: 25px;
-    left: 25px;
-    top: 47px;
+    width: 46px;
+    left: 32px;
+    top: 81px;
+    transform-origin: top;
 }
-#toy3{
+
+#toy3 {
     position: relative;
     width: 29px;
-    left: 17px;
-    top: 132px;
+    left: 33px;
+    top: 95px;
+    transform-origin: top;
 }
+
 @keyframes toyShake {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
 
-    25%{
+    25% {
         transform: rotate(45deg);
     }
 
-    50%{
+    50% {
         transform: rotate(0);
     }
 
-    75%{
+    75% {
         transform: rotate(-45deg);
     }
 
-    100%{
+    100% {
         transform: rotate(0deg);
     }
 }
-#countdown{
+
+#countdown {
     position: absolute;
     left: 21%;
     top: 63%;
@@ -73,11 +84,13 @@ body{
     font-family: 'Squada One', cursive;
     font-size: 100pt;
 }
-#countdown>p{
+
+#countdown>p {
     font-size: 42pt;
     top: 62%;
 }
-#countdown>span{
+
+#countdown>span {
     font-size: 50pt;
     position: relative;
     left: 0%;
@@ -90,7 +103,8 @@ body{
     font-style: normal;
     src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2");
 }
-#graz{
+
+#graz {
     position: absolute;
     left: 21%;
     top: 35%;
@@ -98,6 +112,7 @@ body{
     font-family: 'Mountains of Christmas';
     user-select: none;
 }
-#graz>h1{
+
+#graz>h1 {
     font-size: 140pt;
 }
