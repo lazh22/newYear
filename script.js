@@ -88,10 +88,10 @@ let timer = setInterval(function () {
     let minutes = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
     let seconds = Math.floor((diff % (60 * 1000)) / 1000);
 
-    $(".seconds").text(seconds + " секунд");
-    $(".minutes").text(minutes + " минут");
-    $(".hours").text(hours + " часов");
-    $(".days").text(days + " дней");
+    $(".seconds").text(seconds + ": ");
+    $(".minutes").text(minutes + ": ");
+    $(".hours").text(hours + ": ");
+    $(".days").text(days + ".");
 }, 1000)
 $(".hat").click(function (e) {
     $(e.currentTarget).addClass("hatBounce");
