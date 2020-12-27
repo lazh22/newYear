@@ -4,12 +4,24 @@
     position: fixed;
     right: 46px;
     bottom: 0px;
-    background-image: url(img/tree.png);
+    background-image: url("img/tree.png");
     background-size: contain;
     width: 139px;
     height: 215px;
     top: 75%;
     left: 80%;
+}
+#treeMobile{
+    transform: scale(1);
+    position: fixed;
+    right: 44px;
+    bottom: 0px;
+    background-image: url(./img/tree.png);
+    background-size: contain;
+    width: 137px;
+    height: 215px;
+    top: 70%;
+    left: 33%;
 }
 
 /* Параметры Звезды */
@@ -19,7 +31,7 @@
     top: -27px;
     width: 35px;
     height: 34px;
-    background-image: url(./img/tree_star.png);
+    background-image: url("./img/tree_star.png");
     background-size: contain;
 }
 
