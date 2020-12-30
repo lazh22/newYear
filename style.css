@@ -68,10 +68,10 @@ body {
     top: 62%;
 }
 #countdownMobile>span {
-    font-size: 19pt;
+    font-size: 30pt;
     position: relative;
-    left: -11%;
-    top: -335px;
+    left: 19%;
+    top: -421px;
 }
 
 #grazMobile{

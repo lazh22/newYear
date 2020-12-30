@@ -88,7 +88,7 @@ let timer = setInterval(function () {
     let minutes = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
     let seconds = Math.floor((diff % (60 * 1000)) / 1000);
 
-    $(".seconds").text(seconds + ".");
+    $(".seconds").text(seconds + " ");
     $(".minutes").text(minutes + ": ");
     $(".hours").text(hours + ": ");
     $(".days").text(days + ": ");
